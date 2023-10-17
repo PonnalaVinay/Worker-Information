@@ -87,7 +87,7 @@ app.get('/In', async function (req, res) {
         const response = await axios.get('https://api.opencagedata.com/geocode/v1/json', {
           params: {
             q: city,
-            key:'4a5c9635ea0e43d1a499aac6b2c9259c', //'f62dd8f2c0b5434cbcfe2af0036ca111', 
+            key:'f62dd8f2c0b5434cbcfe2af0036ca111', 
           },
         });
         const latitude = response.data.results[0].geometry.lat;
