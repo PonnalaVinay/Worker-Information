@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>USER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .vi{
+          margin-top:20px;
+          background:#cbdeed;
+          border-style:outset;
+          border-width:3px;
+          border-color:whitesmoke;
+        }
+      </style>
+</head>
+<body style="background:#74b9ff;">
+    <div class="container" style="background:#74b9ff; border-radius:3%;margin-top:60px; border-style:outset;border-width:10px;border-color:rgb(218, 243, 235)">
+            <div class="col-lg-2 col-sm-2 col-md-2"></div>
+        <div class="col-lg-6 col-sm-6 col-md-6">
+            <h2>USER</h2>
+            <form method="GET" class="form-horizontal" action="In">
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">NAME:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="text" class="form-control" autofocus placeholder="Enter your name" name="person" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">MOBILE NO:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="number" class="form-control" placeholder="Enter your mobile number" name="ph.no" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">CURRENT LOCATION:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="text" class="form-control" placeholder="Enter your location" name="locality" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">VERY NEAR LOCATION:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="text" class="form-control" placeholder="Enter your very near location" name="locality2" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">NEAR LOCATION:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="text" class="form-control" placeholder="Enter your near location" name="locality3" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">WHICH WORKER DO YOU WANT:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="text" class="form-control" placeholder="Enter work name" name="worker" required>
+                    </div>
+                </div>
+                <div class="form-group vi">
+                    <label class="control-label col-sm-4 col-lg-4 col-md-4">DATE:</label>
+                    <div class="col-sm-8 col-lg-8 col-md-8">
+                        <input type="date" class="form-control" placeholder="Enter date" name="date" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+</body>
+</html>
